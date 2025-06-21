@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/26ce908897.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+       
+        <nav>
+            <a href="#"><img src="img1.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li> <a href="#">Service</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class= "fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="heading">
+                <h1>welcome to my web page</h1>
+                <p class="para">this is my page</p>
+            </div>
+    <form class="fm">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text" placeholder="Enter Your Name">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>Phone Number:</td>
+                <td>
+                    <input type="Number" placeholder="Enter Your Phone Number">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="Email" placeholder="Enter Your Email">
+                </td>
+            </tr>
+           
+        </table>
+        <br>
+        <button id="btn">Submit</button>
+    </form>
+        </section>
+
+   <script src="script.js" ></script>
+</body>
+</html>
